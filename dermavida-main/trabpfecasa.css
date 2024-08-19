@@ -1,0 +1,173 @@
+
+  /* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  #ffffff;
+  color: black;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do Banner */
+.banner {
+  width: 100%;
+  display: block;
+}
+
+/* Estilo da Seção de Título */
+.grid-1 {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.grid-1 h1 {
+  margin: 20px auto;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Estilos do Menu de Navegação */
+.nav-namespace * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-namespace {
+  background: #F2F2EE;
+  padding: 10px 40px 10px 70px;
+  border-left: none;
+    border-right: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-namespace ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-namespace ul li.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-namespace ul main.items {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-namespace ul main.items a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.nav-namespace ul main.items a:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav-namespace ul .search-icon {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: -100px;
+}
+
+.nav-namespace ul .search-icon input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.nav-namespace ul .search-icon:hover {
+  background: #e6e6e6;
+}
+
+.nav-namespace ul .search-icon .icon span {
+  font-size: 18px;
+  color: #222;
+}
+
+.nav-namespace ul li.btn {
+  display: none;
+}
+
+/* Estilos dos Cards */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: -20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 12px #aaa;
+  text-align: center;
+}
+
+.card img {
+  width: calc(100% - 20px);
+  height: 150px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.card main {
+  padding: 10px;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card h2 {
+  font-size: 0.9rem;
+  color: #aaaa;
+  margin: 5px 0;
+}
+
+.card span {
+  display: block;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card button {
+  background-color: #2192FF;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 80%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #0d1823;
+}
